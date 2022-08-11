@@ -1,0 +1,88 @@
+{
+  "name": "fca-hokai-remake",
+  "version": "1.0.0",
+  "description": "Facebook Chat Api Được Remake Bới hokai Chống Get (available) Và Pay Acc (maybe?)",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "lint": "./node_modules/.bin/eslint **.js",
+    "prettier": "prettier utils.js src/* --write"
+  },
+  "author": "Avery, David, Maude, Benjamin, RqzaX",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RqzaX040/Fca-Hokai-Remake/issues"
+  },
+  "homepage": "https://github.com/RqzaX040/Fca-Hokai-Remake#readme",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/RqzaX040/Fca-Hokai-Remake.git"
+  },
+  "dependencies": {
+    "aes-js": "latest",
+    "assert": "latest",
+    "bluebird": "latest",
+    "chalk": "4.1.2",
+    "cheerio": "latest",
+    "crypto": "latest",
+    "crypto-js": "latest",
+    "got": "^11.8.3",
+    "horizon-sp": "latest",
+    "https-proxy-agent": "latest",
+    "is-hexcolor": "^1.0.0",
+    "lodash": "",
+    "mqtt": "latest",
+    "node-superfetch": "",
+    "npmlog": "latest",
+    "os": "latest",
+    "path": "latest",
+    "pretty-ms": "7.0.1",
+    "request": "latest",
+    "websocket-stream": "latest",
+    "uuid-apikey": "latest",
+    "express": "latest",
+    "readline": "latest",
+    "totp-generator": "latest",
+    "synthetic-hokai-database": "latest"
+  },
+  "engines": {
+    "node": ">=14.x <16.x"
+  },
+  "devDependencies": {
+    "eslint": "latest",
+    "mocha": "latest",
+    "prettier": "latest"
+  },
+  "eslintConfig": {
+    "env": {
+      "es6": true,
+      "node": true
+    },
+    "extends": "eslint:recommended",
+    "parserOptions": {
+      "sourceType": "module"
+    },
+    "rules": {
+      "linebreak-style": [
+        "error",
+        "unix"
+      ],
+      "semi": [
+        "error",
+        "always"
+      ],
+      "no-unused-vars": [
+        1,
+        {
+          "argsIgnorePattern": "^_"
+        }
+      ]
+    }
+  },
+  "keywords": [
+    "Fca hokai",
+    "fca-hokai-remake",
+    "hokai fca",
+    "hokai"
+  ]
+}
