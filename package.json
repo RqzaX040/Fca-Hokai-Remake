@@ -1,31 +1,36 @@
 {
-  "name": "fca-hokai-remake",
-  "version": "1.0.0",
-  "description": "Facebook Chat Api Được Remake Bới hokai Chống Get (available) Và Pay Acc (maybe?)",
+  "name": "fca-rqzax-remake",
+  "version": "3.0.0",
+  "description": "Facebook Chat Api Chống Get (available) Và Pay Acc (maybe?)",
   "main": "index.js",
   "scripts": {
     "test": "mocha",
-    "lint": "./node_modules/.bin/eslint **.js",
+    "lint": "eslint **.js",
     "prettier": "prettier utils.js src/* --write"
   },
-  "author": "Avery, David, Maude, Benjamin, RqzaX",
+  "author": "Avery, David, Maude, Benjamin, KanzuWakazaki",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/RqzaX040/Fca-Hokai-Remake/issues"
+    "url": "https://github.com/RqzaX040/Fca-RqzaX-Dev/issues"
   },
-  "homepage": "https://github.com/RqzaX040/Fca-Hokai-Remake#readme",
+  "homepage": "https://github.com/RqzaX040/Fca-RqzaX-Dev#readme",
   "repository": {
     "type": "git",
-    "url": "git://github.com/RqzaX040/Fca-Hokai-Remake.git"
+    "url": "git://github.com/RqzaX040/Fca-RqzaX-Dev.git"
   },
   "dependencies": {
     "aes-js": "latest",
     "assert": "latest",
+    "axios": "^1.1.3",
     "bluebird": "latest",
     "chalk": "4.1.2",
     "cheerio": "latest",
     "crypto": "latest",
     "crypto-js": "latest",
+    "express": "latest",
+    "figlet": "^1.5.2",
+    "form-data": "^4.0.0",
+    "fs-extra": "^10.1.0",
     "got": "^11.8.3",
     "horizon-sp": "latest",
     "https-proxy-agent": "latest",
@@ -37,13 +42,12 @@
     "os": "latest",
     "path": "latest",
     "pretty-ms": "7.0.1",
-    "request": "latest",
-    "websocket-stream": "latest",
-    "uuid-apikey": "latest",
-    "express": "latest",
     "readline": "latest",
+    "request": "latest",
+    "synthetic-horizon-database": "latest",
     "totp-generator": "latest",
-    "synthetic-hokai-database": "latest"
+    "uuid-apikey": "latest",
+    "websocket-stream": "latest"
   },
   "engines": {
     "node": ">=14.x <16.x"
@@ -80,9 +84,9 @@
     }
   },
   "keywords": [
-    "Fca hokai",
-    "fca-hokai-remake",
-    "hokai fca",
-    "hokai"
+    "Fca RqzaX",
+    "fca-rqzax-dev",
+    "RqzaX fca",
+    "RqzaX"
   ]
 }
