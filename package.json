@@ -7,4 +7,5 @@
     "test": "mocha",
     "lint": "eslint **.js",
     "prettier": "prettier utils.js src/* --write"
+  }
 }
