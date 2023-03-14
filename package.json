@@ -1,6 +1,6 @@
 {
   "name": "fca-rqzax-remake",
-  "version": "2.1.0",
+  "version": "2.3.4",
   "description": "Facebook Chat Api Chống Get (available) Và Pay Acc (maybe?) g",
   "main": "index.js",
   "scripts": {
