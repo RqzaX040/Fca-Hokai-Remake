@@ -1,0 +1,12 @@
+{
+  "HasProblem": true,
+  "ForceUpdate": true,
+  "Problem": "Update",
+  "Version": "8.0.0",
+  "Stable_Version": {
+    "Valid_Version": [
+      "8.0.0"
+    ],
+    "RealTime_AutoUpdate": false
+  }
+}
