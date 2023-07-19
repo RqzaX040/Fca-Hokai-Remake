@@ -1,7 +1,7 @@
 {
-  "name": "fca-rqzax-remake",
-  "version": "7.4.0",
-  "description": "Facebook Chat Api Chống Get (available) Và Pay Acc (maybe?) g",
+  "name": "fca-r1zax",
+  "version": "8.0.0",
+  "description": "Fca mod từ Fca-Horizon-Remastered",
   "main": "index.js",
   "scripts": {
     "test": "mocha",
